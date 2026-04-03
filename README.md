@@ -37,6 +37,11 @@ If you find our work helpful, please kindly cite our research paper:
 [1]Xinghe Cheng, Zihan Zhang, Jiapu Wang, Liangda Fang, Chaobo He, Quanlong Guan, Shirui Pan, Weiqi Luo. GraphRAG-induced dual knowledge structure graphs for personalized learning path recommendation. AAAI. 2026
 
 ```
-@article{Cheng2026, title={GraphRAG-Induced Dual Knowledge Structure Graphs for Personalized Learning Path Recommendation}, volume={40}, DOI={10.1609/aaai.v40i17.38479},journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Cheng, Xinghe and Zhang, Zihan and Wang, Jiapu and Fang, Liangda and He, Chaobo and Guan, Quanlong and Pan, Shirui and Luo, Weiqi}, year={2026}, month={Mar.}, pages={14610-14620} }
+@article{Cheng2026, title={GraphRAG-Induced Dual Knowledge Structure Graphs for Personalized Learning Path Recommendation},
+volume={40},
+DOI={10.1609/aaai.v40i17.38479},
+journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+author={Cheng, Xinghe and Zhang, Zihan and Wang, Jiapu and Fang, Liangda and He, Chaobo and Guan, Quanlong and Pan, Shirui and Luo, Weiqi},
+year={2026}, month={Mar.}, pages={14610-14620} }
 
 ```
