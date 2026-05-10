@@ -3,16 +3,13 @@ import torch
 
 def get_reference_path(start, targets, graph):
 
-    # if start not in graph.nodes or any(target not in graph.nodes for target in targets):
-    #     raise ValueError("Either the source or target node is not present in the graph.")
     if start not in graph.nodes or any(target not in graph.nodes for target in targets):
-        # 如果start不在节点中，则添加一个节点关系，源节点和目标节点都是start
-        graph.add_node(start)  # 添加start作为节点
+        graph.add_node(start)  
         for target in targets:
             if target not in graph.nodes:
-                graph.add_node(target)  # 添加target作为节点
-                graph.add_edge(start, target)  # 添加源节点和目标节点之间的关系
-        # raise ValueError("Either the source or target node is not present in the graph.")
+                graph.add_node(target) 
+                graph.add_edge(start, target)  
+
 
     all_paths = []
     for target in targets:
